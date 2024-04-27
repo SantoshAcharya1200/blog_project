@@ -38,6 +38,9 @@ class PostSerializer(serializers.ModelSerializer):
     tags = TagSerializer(many=True, read_only=True)
     comments = CommentSerializer(many=True, read_only=True)
 
+
     class Meta:
         model = Post
         fields = ['id', 'title', 'content', 'author', 'category', 'tags', 'comments', 'created_at']
+        extra_kwargs = {"author": {"read_only": True}}
+
