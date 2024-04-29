@@ -72,7 +72,7 @@ All the endpoints are listed below.
   - `python >= 3.8`
   - `pip >= 21.3.1` 
 - `git clone https://github.com/SantoshAcharya1200/blog_project.git` - clones the repository
-- `cd chronicles`
+- `cd blog_project`
 
 #### <ins>**For frontend folder**</ins>
 
@@ -80,7 +80,7 @@ All the endpoints are listed below.
 - `cd frontend`
 - `npm install` or `npm i` - installs all packages
 - `npm install --save-dev` - installs devDependencies
-- `npm start` - starts the app
+- `npm run dev` - starts the app
 
 #### <ins>**For backend folder**</ins>
 
